@@ -1,0 +1,683 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2011 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,roman]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                        % style options are 'casual' (default) and 'classic' 
+\moderncvcolor{green}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+%\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+\usepackage{amssymb}
+%
+%\usepackage{fourier}
+%\usepackage[T1]{fontenc}
+%\usepackage[sc]{mathpazo}
+%\linespread{1.05}         % Palladio needs more leading (space between lines)
+%\usepackage[T1]{fontenc}
+%
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage[T1]{fontenc}
+%   
+%\usepackage{fontawesome}   %url symbol
+\usepackage[usestackEOL]{stackengine}  %address on more lines
+
+
+\usepackage{array}                % For better tabular formatting
+\usepackage{booktabs}            % Optional: for nicer tables
+\usepackage{caption}             % Optional: better caption control
+
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+\setlength{\separatorcolumnwidth}{0.05\textwidth} 
+\usepackage[urlcolor=blue]{hyperref}
+\linespread{1.2}
+
+%
+\usepackage{tikz}
+\newcommand{\ExternalLink}{%
+    \tikz[x=1.2ex, y=1.2ex, baseline=-0.05ex]{% 
+        \begin{scope}[x=1ex, y=1ex]
+            \clip (-0.1,-0.1) 
+                --++ (-0, 1.2) 
+                --++ (0.6, 0) 
+                --++ (0, -0.6) 
+                --++ (0.6, 0) 
+                --++ (0, -1);
+            \path[draw, 
+                line width = 0.5, 
+                rounded corners=0.5] 
+                (0,0) rectangle (1,1);
+        \end{scope}
+        \path[draw, line width = 0.5] (0.5, 0.5) 
+            -- (1, 1);
+        \path[draw, line width = 0.5] (0.6, 1) 
+            -- (1, 1) -- (1, 0.6);
+        }
+    }
+%
+
+
+
+% personal data
+\filepdftitle{Curriculum Vit\ae \hspace{0.1cm} David Picconi}
+\firstname{\Huge{David}}
+\familyname{Picconi}
+\title{\Large{Heinrich-Heine University\newline{D\"usseldorf}\newline \newline \normalsize{Place and date of birth: \newline Viterbo (Italy), 29 August 1988}}}               % optional, remove the line if not wanted
+\address{\Longstack[r]{Institute for Theoretical\\and Computational Chemistry \smallskip \\ }}{\Longstack[r]{Heinrich-Heine University D\"usseldorf\\Universit\"atsstr. 1\\40225 D\"usseldorf, Germany}}
+ % optional, remove the line if not wanted
+%\address{\textbf{Contacts}}{ \vspace{-0.5cm} }    % optional, remove the line if not wanted
+%\mobile{+491746589884}                     % optional, remove the line if not wanted
+%\phone{+393292007092}                      % optional, remove the line if not wanted
+%\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
+\email{david.picconi@hhu.de}                          % optional, remove the line if not wanted
+%\extrainfo{skype: ilpicx}            % optional, remove the line if not wanted
+\photo[64pt][0.4pt]{Photo2.jpg}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\usepackage{hyperref}
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % to typeset your resume in Chinese using CJK
+\maketitle
+\flushright
+\vspace{-1cm}
+\textbf{\color{green!40!black} August 2025}
+
+\medskip
+\begin{itemize}
+\item ORCID: \href{https://orcid.org/0000-0001-6468-1595}{\color{blue} 0000-0001-6468-1595}
+\item ResearchGate: \href{https://www.researchgate.net/profile/David-Picconi}{\color{blue} \ExternalLink}
+\end{itemize}
+
+\medskip
+
+\section{Education and research experience}
+\medskip
+\medskip
+\cvitem{Jun. 2024 \\  --}{\textbf{Independent Researcher} \textit{University of D\"usseldorf}, Germany \newline Research group of \href{https://www.farajilab.hhu.de/}{\color{blue} Theoretical and Computational Chemistry} (Prof. Shirin Faraji) }
+
+\bigskip \bigskip
+\cvitem{Apr. 2022 \\   May 2024}{\textbf{Postdoctoral researcher} \textit{University of Groningen}, the Netherlands \newline Research group of Theoretical Chemistry (Prof. Shirin Faraji)}
+
+\bigskip \bigskip
+\cvitem{Oct. 2019 \\   Mar. 2022}{\textbf{Postdoctoral researcher} \textit{University of Potsdam}, Germany \newline Research groups of \href{https://www.uni-potsdam.de/theochem/index.html}{\color{blue} Theoretical Chemistry} (Prof. Peter Saalfrank)} % and \newline \href{http://exp-quantum.org/}{\color{blue} Experimental Quantum Physics} (Prof. Markus G\"uhr)}
+
+\bigskip \bigskip 
+\cvitem{Sep. 2017 \\  Sep. 2019}{\textbf{Postdoctoral researcher} \textit{Goethe-University Frankfurt am Main}, Germany \newline
+Research group of \href{http://www.theochem.uni-frankfurt.de/}{\color{blue} Theoretical Chemistry of Complex Systems}
+\newline (Prof. Irene Burghardt) }
+
+\bigskip \bigskip 
+\cvitem{Oct. 2012 \\  Jun. 2017}{\textbf{Doctoral Degree (PhD)} \textit{Technical University of Munich}, Germany}
+\cvitem{\href{http://mediatum.ub.tum.de/?id=1360400}{\color{blue} thesis}}{\textsc{Photodissociation Dynamics and Spectroscopy in the Presence of Conical Intersections}} 
+\cvitem{supervisor}{Prof. \href{https://www.professoren.tum.de/en/domcke-wolfgang}{\color{blue} Wolfgang Domcke} - \textit{Technical University of Munich}}
+%\cvitem{}{Priv.-Doz. Dr. Sergy Yu. Grebenshchikov - \textit{Technical University of Munich}}
+\cvitem{final grade}{Highest distinction (\textit{Summa cum laude})}
+\cvitem{}{Doctoral fellowship of the \href{http://www2.mpq.mpg.de/APS/index.php}{\color{blue} International Max Planck School for Advanced Photon Science}. }
+
+%\bigskip \bigskip 
+\newpage
+\cvitem{2010--2012}{\textbf{Master Degree, Physical Chemistry,} \textit{University of Pisa}, Italy} %, \textit{GPA: 29.7 out of 30}}
+\cvitem{\href{http://etd.adm.unipi.it/theses/available/etd-06292012-005120/}{\color{blue}thesis}}{\textsc{Development of Models for Quantum Dynamical Simulations of Photo-Excited molecules. Application to the $\pi\pi^*$/$n\pi^*$ Internal Conversion in Thymine}} 
+\cvitem{supervisor}{Dr. \href{http://www.iccom.cnr.it/en/single-profile-iccom-en/?uid=174}{\color{blue} Fabrizio Santoro} - \textit{National Council of Research -- Institute of Chemistry of Organometallics compounds (ICCOM-CNR)}}
+\cvitem{final grade}{110/110 \textit{cum laude}}
+
+\bigskip \bigskip \medskip
+\cvitem{2007--2012}{\textbf{Undergraduate course, Faculty of Sciences,} \textit{Scuola Normale Superiore di Pisa}, Italy \newline Initiative for excellent education, upon competitive selection {\color{blue} \href{https://www.sns.it/en/la-normale-si-presenta}{\ExternalLink}}} %, \textit{GPA: 28.9 out of 30}}
+
+%\newpage
+%\bigskip \bigskip  \medskip
+%\cvitem{2007--2010}{\textbf{Bachelor Degree, Chemistry,} \textit{University of Pisa}, Italy} % , \textit{GPA: 29.0 out of 30}}
+%\cvitem{thesis}{\textsc{Ultrafast Decay of Photoexcited Nucleobases. Quantum Dynamical Study of the $\pi\pi^*\longrightarrow n\pi^*$ Transfer in Thymine}} 
+%\cvitem{supervisor}{Dr. Fabrizio Santoro - \textit{National Council of Research -- Institute of Chemistry of Organometallics compounds (ICCOM-CNR)}}
+%\cvitem{final grade}{110/110 \textit{cum laude}}
+
+\bigskip 
+\section{Research interests}
+\medskip
+\cvitem{\listitemsymbol}{Development of theories, codes and algorithms for high-dimensional molecular quantum dynamics and mixed quantum-classical simulations of chemical systems.  Development of methods to describe multi-mode multi-state open quantum systems, analyse decoherence and dissipation.}
+
+
+\medskip
+\cvitem{\listitemsymbol}{Simulation of photo-initiated processes in molecules and materials in the time and energy domain: Internal conversion and intersystem crossing, nonadiabatic phenomena, photodissociation, photoisomerisation, charge/energy transfer, exciton dissociation and annihilation, photoinduced chemical reactions, etc.}
+
+\medskip
+\cvitem{\listitemsymbol}{Quantum chemical description of molecular potential energy surfaces. Modelling of ground and excited states, as well as multi-state reaction pathways.}
+
+\medskip
+\cvitem{\listitemsymbol}{First-principles simulation of optical spectroscopies of gas- and condensed-phase molecular systems: One-photon processes (absorption, emission, circular dichroism), resonance Raman scattering, two-photon absorption, pump-probe, four-wave mixing and photoelectron signals for different ranges of wavelengths (infrared, ultraviolet, X-ray). Development of theoretical models to correlate the spectroscopic signals to the underlying molecular dynamics.}
+
+
+
+\bigskip 
+\section{Active and past collaborations}
+\medskip
+\cvitem{\listitemsymbol}{Prof. Markus \textbf{G\"{u}hr}, German Electron Synchrotron DESY and University of Hamburg, Germany. \newline Ultrafast photochemistry investigated using time-resolved X-ray spectroscopy. (2019--present)}
+
+\medskip
+\cvitem{\listitemsymbol}{Prof. Irene \textbf{Burghardt}, University of Frankfurt, Germany. \newline Theoretical methods for high-dimensional quantum dynamics and open quantum systems. Multi-pulse vibronic spectroscopy. (2019--present)}
+
+\medskip
+\cvitem{\listitemsymbol}{Prof. David \textbf{McCamant}, University of Rochester, United States. \newline  Resonance Raman and time-resolved spectroscopy of excitonic dimers. (2025--present)}
+
+\medskip
+\cvitem{\listitemsymbol}{Prof. Jens \textbf{Bredenbeck}, University of Frankfurt, Germany. \newline Mixed vibrational-electronic spectroscopy (infrared-ultraviolet). (2022)}
+
+\medskip
+\cvitem{\listitemsymbol}{Prof. Jeffrey A. \textbf{Cina}, University of Oregon, United States. \newline Theoretical description of multi-dimensional optical spectroscopy. (2017--2019)}
+
+
+\bigskip
+
+
+
+\section{Bibliometric data}
+\cvitem{}{Source: SCOPUS database}
+
+\medskip
+\cvitem{\textbf{Citations}}{441}
+
+\smallskip
+\cvitem{\textbf{H-index}}{12}
+
+\smallskip
+\textbf{Author position information for the last 20 publications in the period 2015--2024}
+\smallskip
+\begin{center}
+\begin{tabular}{@{} l l l l @{}}
+  \toprule
+  Position \hspace{3cm}  &  \% \hspace{2cm} & No. of publications \hspace{1.5cm}  & Average citations   \\
+  \midrule
+  First author   & 45\% &   9     & 10    \\
+  Last author   & 10\% &  2  & 6    \\
+  Co-author     & 30\% & 6     & 8     \\
+  Single author  & 15\%  & 3  & 10  \\
+  \midrule  
+  Corresponding author & 70\% &  14  & 13  \\
+  \bottomrule
+\end{tabular}
+\end{center}
+
+\bigskip
+
+
+\flushleft
+\section{Invited and contributed talks at international conferences}
+%\textit{I was the speaker of all the talks listed below. For each talk, it is indicated whether it was given during my postdoctoral (\textbf{PD1} or \textbf{PD2}), doctoral (\textbf{PhD}) or master (\textbf{M}) work.}
+\medskip
+\cvitem{contributed}{\textsc{Novel approaches to simulate the dynamics of multi-mode nonadiabatic
+quantum systems coupled to a fluctuating environment}, at the 16th Femtochemistry Conference (FEMTO 16) {\color{blue} \href{https://indico.elettra.eu/event/44/overview}{\ExternalLink}}, Trieste, Italy, June 2025}
+
+\bigskip
+\cvitem{contributed}{\textsc{Novel approaches to simulate the dynamics of multi-mode nonadiabatic
+quantum systems coupled to a fluctuating environment}, at "Quantum Dynamics and Spectroscopy of Functional Molecular Materials and Biological Photosystems" {\color{blue} \href{https://qudynspec.sciencesconf.org/?lang=en}{\ExternalLink}}, Les Houches, France, March 2025}
+
+\bigskip
+\cvitem{invited}{\textsc{High-Dimensional Quantum Dynamics with Dissipation and Decoherence: Challenges and Applications}, at "High Dimensional Quantum Dynamics: Challenges and Applications (HDQD2024)" {\color{blue} \href{https://www.conferences.uni-hamburg.de/event/393/}{\ExternalLink}}, Hamburg, Germany, July 2024}
+
+\bigskip
+\cvitem{contributed}{\textsc{Photophysics, photochemistry and spectroscopy using high-dimensional quantum wave packets}, at "NWO Physics", Veldhoven, the Netherlands, January 2024}
+
+\bigskip
+\cvitem{invited}{\textsc{Photophysics, photochemistry and spectroscopy using high-dimensional quantum wave packets}, at "Quantum Dynamics and Spectroscopy of Functional Molecular Materials and Biological Photosystems" {\color{blue} \href{https://www.theochem.uni-frankfurt.de/LesHouches2023/index.php}{\ExternalLink}}, Les Houches, France, September 2023}
+
+\bigskip
+\cvitem{contributed}{\textsc{Photophysics, photochemistry and spectroscopy using high-dimensional quantum wave packets and \textit{ab initio} potential energy surfaces}, at the Internetional Conference on Photochemistry (ICP2023) {\color{blue} \href{https://icp2023.jp/}{\ExternalLink}}, Sapporo, Japan, July 2023}
+
+\bigskip
+\cvitem{contributed}{\textsc{Ultrafast molecular photodynamics and their spectroscopic detection}, at the 28th IUPAC Symposium on Photochemistry (PhotoIUPAC) {\color{blue} \href{https://photoiupac2022.amsterdam/}{\ExternalLink}}, Amsterdam, the Netherlands, July 2022}
+
+\bigskip
+\cvitem{contributed}{\textsc{Ultrafast molecular photodynamics and their spectroscopic detection}, at "High-Dimensional Quantum Dynamics: Challenges and Applications" (HDQD2022) {\color{blue} \href{https://www.hdqd2022.org/}{\ExternalLink}}, Groningen, the Netherlands, July 2022}
+
+\bigskip
+\cvitem{contributed}{\textsc{Molecular photodynamics and its manifestation in UV-Vis and X-ray time-resolved spectra: Insights from quantum chemistry and quantum dynamics}, at the 57th Symposium on Theoretical Chemistry {\color{blue} \href{https://stc2021.uni-wuerzburg.de/}{\ExternalLink}}, W{\"u}rzburg, Germany, September 2021}
+
+\bigskip
+\cvitem{contributed}{\textsc{Molecular photodynamics and its manifestation in UV-Vis and X-ray time-resolved spectra: Insights from quantum chemistry and quantum dynamics}, at the International Conference on Photochemistry {\color{blue} \href{https://www.icp2021.ch/}{\ExternalLink}}, Geneva, Switzerland, July 2021}
+
+\bigskip
+\cvitem{invited}{\textsc{Molecular photodynamics and its manifestation in UV-Vis and X-ray time-resolved spectra: Insights from quantum chemistry and quantum dynamics}, at ``Light Induced Processes in Physical, Chemical, and Biological Systems'' {\color{blue} \href{https://www2.irb.hr/korisnici/nadja/LIP2021/}{\ExternalLink}}, Zagreb, Croatia, June 2021}
+
+\bigskip
+\cvitem{invited}{\textsc{Molecular photodynamics and its manifestation in UV-Vis and X-ray time-resolved spectra: Insights from quantum chemistry and quantum dynamics}, at ``Quantum Dynamics and Spectroscopy of Functional Molecular Materials and Biological Photosystems'' {\color{blue} \href{https://www.theochem.uni-frankfurt.de/LesHouches2021/index.php}{\ExternalLink}}, Les Houches, France, May 2021}
+
+\bigskip
+\cvitem{contributed}{\textsc{Time-resolved spectra of $\mathrm{I_2}$ in a krypton crystal by G-MCTDH simulations: Nonadiabatic dynamics, dissipation and environment driven decoherence}, at ``Beating the complexity of matter through the selectivity of X-rays. Dynamic pathways in multidimensional landscapes'' {\color{blue} \href{https://www.helmholtz-berlin.de/events/complexity-of-matter/index_en.html}{\ExternalLink}}, Berlin, Germany, September 2019}
+
+\bigskip
+\cvitem{contributed}{\textsc{Time-resolved spectra of $\mathrm{I_2}$ in a krypton crystal by G-MCTDH simulations: Nonadiabatic dynamics, dissipation and environment driven decoherence}, at ``Quantum effects in complex systems: Faraday Discussion'' {\color{blue} \href{http://www.rsc.org/events/detail/30710/quantum-effects-in-complex-systems-faraday-discussion}{\ExternalLink}}, Coventry, United Kingdom, September 2019}
+
+\bigskip
+\cvitem{invited}{\textsc{Quantum dynamics and spectroscopy using G-MCTDH wavefunctions. Nonadiabatic photophysics and vibrational coherences of $\mathrm{I_2}$ in solid $\mathrm{Kr}$}, at ``Quantum dynamics and spectroscopy in condensed-phase materials and bio-systems'' {\color{blue} \href{https://www.telluridescience.org/meetings/workshop-details?wid=752}{\ExternalLink}}, Telluride, United States, June 2019}
+
+\bigskip
+\cvitem{contributed}{\textsc{Photodynamics and Spectroscopy of Halogens Embedded in Rare Gas Crystals. Quantum Dynamics of $\mathrm{I_2}$ in Solid $\mathrm{Kr}$}, at the ``54th Symposium on Theoretical Chemistry'' {\color{blue} \href{https://stc2018.de/}{\ExternalLink}}, Halle (Saale), Germany, September 2018.}
+
+\bigskip
+\cvitem{contributed}{\textsc{Photodissociation reactions through conical intersections: Insights into the absorption spectrum and the product state distributions}, at ``High dimensional quantum dynamics: challenges and opportunities'' {\color{blue} \href{http://web.physik.uni-rostock.de/quantendynamik/hdqd_home.html}{\ExternalLink}}, Rostock, Germany, September 2016.}
+
+\bigskip
+\cvitem{invited}{\textsc{Insights into the absorption spectrum and the product state distributions of photodissociating molecules}, at ``Non-Equilibrium Statistical Physics: from molecular materials to theoretical engineering. Honoring Professor Vladimir Chernyak 60th Birthday'' {\color{blue} \href{https://www.telluridescience.org/meetings/workshop-details?wid=608}{\ExternalLink}}, Telluride, United States, July 2016}
+
+\bigskip
+\cvitem{contributed}{\textsc{Tracking reactive conical intersections in photodissociation via internal state distributions of (interacting) fragments}, at the 13th International Workshop on Quantum Reactive Scattering {\color{blue} \href{http://fama.iff.csic.es/con/QRS-2015/}{\ExternalLink}}, Salamanca, July 2015}
+
+\bigskip
+\cvitem{contributed}{\textsc{Tracking reactive conical intersections in photodissociation via internal state distributions of (interacting) fragments}, at the 5th Summit Meeting ``Excitation energy transfer processes in physical, chemical and biological systems", Munich, Germany, July 2015}
+
+\bigskip
+\cvitem{contributed}{\textsc{A strategy for nonadiabatic quantum-classical dynamics of semirigid molecules. Investigating the photostability of nucleobases}, at the Workshop of the Section of Theoretical and Computational Chemistry of the Italian Chemical Society, Padova, Italy, February 2013}
+
+\bigskip
+\cvitem{contributed}{\textsc{Models for quantum dynamical simulations of photoexcited molecules. Investigating the photostability of nucleobases}, at the International Meeting on Atomic and Molecular Physics and Chemistry {\color{blue} \href{http://imampc2012.sns.it/program}{\ExternalLink}}, Pisa, Italy, September 2012}
+
+\bigskip
+\bigskip
+\textit{Additionally, I have given $>10$ university colloquia and invited seminars in different research groups.}
+
+
+
+
+
+\newpage
+\section{Additional scientific activities}
+
+\bigskip
+\bigskip
+\cvitem{}{\textbf{Participation in funded projects after the doctorate:}}
+\vspace{-0.3cm}
+\cvitem{}{\begin{itemize}
+\item "Watching chemistry happen with light", VIDI Grant funded by the \textit{Nederlandse Organisatie voor Wetenschappelijk Onderzoek (NWO)} (PI: Prof. S. Faraji) [Publication 24]
+\item “Gaussian methods for quantum dynamics of complex systems”, funded by the \textit{German Israeli Foundation (GIF)} (PI: Prof. I. Burghardt, 2017-2109) [Publication 15]
+\item “Probing thionucleobase dynamics at the sufur L-edge”, funded by the \textit{Deutsches Forschungsgemeinschaft (DFG)} (PIs: Prof. P. Saalfrank and Prof. M. G\"uhr, project n. 445713302, started in 2020) [Publications 21, 20 and 18]
+\item “Theoretical description of a novel dye-sensitized solar cell”, funded by the \textit{Deutsches Forschungsgemeinschaft (DFG)} (PI: Prof. P. Saalfrank, project n. 251801169, started in 2014) [Publications 22 and 19]
+\end{itemize}
+}
+
+\bigskip
+\bigskip
+\cvitem{}{\textbf{Reviewing activity}}
+\cvitem{}{Reviewer for the following journals:
+\begin{itemize}
+\item \textit{Nature Chemistry}
+\item \textit{Nature Communications}
+\item \textit{The Journal of Physical Chemistry Letters}
+\item \textit{Journal of Chemical Theory and Computation}
+\item \textit{The Journal of Chemical Physics} 
+\item \textit{Physical Chemistry Chemical Physics} 
+\item \textit{Journal of Molecular Liquids} 
+%\item \textit{Chemical Physics}
+\end{itemize}}
+\cvitem{}{For the years 2021--2025, 20 reviews can be verified in my {\color{blue} \href{https://orcid.org/0000-0001-6468-1595}{ORCID page}}}
+
+\bigskip
+\bigskip
+\cvitem{}{\textbf{Grant evaluation}}
+\cvitem{}{
+\begin{itemize}
+\item (2025) Assessor for a Research Proposal of the German Science Agency (DFG)
+\item (2022--2023) Assessor for the XS Grant funded by Dutch Science Agency (NWO) for three calls (10 proposals evaluated for each call).
+\end{itemize}
+}
+
+\newpage
+\cvitem{}{\textbf{Conference organization}}
+\cvitem{}{
+\begin{itemize}
+\item Since 2024 I am part of the scientific panel organizing the biannual conference and school \textit{Quantum dynamics and spectroscopy of functional molecular materials and biological photosystems} {\color{blue} \href{https://qudynspec.sciencesconf.org/?lang=en/}{\ExternalLink}} (Chair of the board: Dr. J\'er\'emie Leonard, Univ. Strasbourg). The next edition will be held in Les Houches, France, in March 2027.
+\smallskip
+\item 2025. Scientific organization of the CECAM workshop \textit{Future directions in non-adiabatic dynamics: towards complex systems and long time scales} in Zaragoza, Spain {\color{blue} \href{https://www.cecam.org/workshop-details/future-directions-in-non-adiabatic-dynamics-towards-complex-systems-and-long-time-scales-1413}{\ExternalLink}}
+\smallskip
+\item 2022. Part of the local organization committee of the conference \textit{High-Dimensional Quantum Dynamics} in Groningen, the Netherlands (chair: Prof. Shirin Faraji)
+\end{itemize}
+}
+
+\bigskip\bigskip
+%\newpage
+\cvitem{}{\textbf{Conference chairing}}
+\cvitem{}{I have been assigned as chairman for one session at the following workshops:
+\begin{itemize}
+\item \textit{Quantum dynamics and spectroscopy of functional molecular materials and biological photosystems} {\color{blue} \href{https://qudynspec.sciencesconf.org/?lang=en}{\ExternalLink}}, Les Houches, September 2023 and March 2025
+\item \textit{IUPAC|CHAINS}, The Hague, August 2023
+\item \textit{High-Dimensional Quantum Dynamics}, Groningen, July 2022
+\item \textit{Quantum dynamics and spectroscopy of functional molecular materials and biological photosystems} {\color{blue} \href{https://www.theochem.uni-frankfurt.de/LesHouches2021/}{\ExternalLink}}, Les Houches, May 2021
+\item \textit{Quantum dynamics and spectroscopy in condensed-phase materials and bio-systems} {\color{blue} \href{https://www.telluridescience.org/meetings/workshop-details?wid=752}{\ExternalLink}}, Telluride, June 2019
+\item \textit{5th Summit Meeting ``Excitation energy transfer processes in physical, chemical and biological systems"}, Munich, July 2015
+\end{itemize}}
+
+\bigskip\bigskip
+\cvitem{}{\textbf{Popular press release}}
+\cvitem{}{\begin{itemize}
+\item \textit{Watching the charge move in photoexcited molecules}, press release of the Deutsches Elektronen-Synchrotron DESY {\color{blue} \href{https://photon-science.desy.de/news__events/news__highlights/watching_the_charge_move_in_photoexcited_molecules/index_eng.html}{\ExternalLink}}
+\end{itemize}}
+
+
+\bigskip
+\section{Fellowships and awards}
+\medskip
+
+\cvitem{2021}{I co-wrote a proposal for beamtime allocation at the Elettra Synchrotron in Trieste (spokesperson for the collaboration: Prof. M. G{\"u}hr, University of Potsdam). The proposal was \textbf{accepted}, and time-resolved X-ray spectroscopic experiments were performed in early 2023, and are presently being analyzed. \newline I am coordinating the theory part of the project.}
+
+\bigskip
+\cvitem{2012--2017}{Fellowship of the {\color{blue} \href{http://www2.mpq.mpg.de/APS/}{\textbf{International Max Planck Research School for Advanced Photon Science}}} (assigned by an open competition)}
+
+\bigskip
+\cvitem{July 2015}{\textit{Aaron Kuppermann QRS Best Poster Prize} awarded by the \textit{Journal of Physical Chemistry A}, at the {\color{blue} \href{http://fama.iff.csic.es/con/QRS-2015/}{13th International Workshop no Quantum Reactive Scattering}}}
+
+\bigskip
+\cvitem{SNS undergratduate fellowship}{Students admitted at the Excellence Initiative of the \href{http://www.sns.it/en/}{\color{blue} Scuola Normale Superiore (SNS)} attend the ordinary courses at the University of Pisa, but are required to complement them with additional classes taught by professors of the SNS. In their exams SNS students are required to score average marks of at least 27/30 yearly and no mark below 24/30 in order to mantain the scolarship.}% (due to the lack of grade inflation, these are stringent requirements).} 
+
+
+\bigskip\bigskip
+%\newpage
+\section{Teaching experience}
+\textit{For each course, the course coordinator is given in parenthesis, the level of the students (bachelor/master/PhD) is reported, and my role is explained briefly }
+
+
+\flushleft \textbf{At the Heinrich-Heine University D\"usseldorf}
+\cvitem{2025-2026}{\textit{Quantum and semiclassical molecular dynamics} (Dr. David Picconi, Prof. Shirin Faraji) \newline Master in Chemistry \newline
+I am co-coordinator of this course, I give the lectures and the tutorials, I conduct the examinations and grade.}
+
+
+\cvitem{2024-2025}{Computer Praktikum for the course of \textit{Molecular Photonics and Excited-State Processes} (Prof. Shirin Faraji) \newline Master in Chemistry \newline
+I have been a co-lecturer and teaching assistant for the computational exercises.}
+
+\cvitem{2024-2025}{Exercises of \textit{Quantum and Computational Chemistry (QCCC)} (Prof. Shirin Faraji, Dr. David Picconi) \newline Bachelor in Chemistry \newline
+I coordinated the organization of the exercises for the course and gave tutorial lectures.}
+
+
+\medskip
+
+\flushleft \textbf{At the University of Groningen}
+\cvitem{2023}{\textit{Topics in Chemistry with Python} (Prof. Shirin Faraji) \newline Master in Chemistry, Theoretical and Computational Chemistry Master (TCCM) \newline
+I have been a teaching assistant and I have given part of the lectures.}
+
+\cvitem{2023}{\textit{Molecular Quantum Mechanics II} (Prof. Shirin Faraji) \newline Master in Chemistry, Theoretical and Computational Chemistry Master (TCCM) \newline
+I have given part of the lectures.}
+
+\flushleft \textbf{At the University of Potsdam}
+
+\medskip
+\cvitem{2020-2022}{\textit{Theoretical Photochemistry and Spectroscopy} (Dr. David Picconi) \newline 
+Master \& PhD in Chemistry or Physics \newline
+I fully coordinated this course for two semesters, I gave the lectures and the tutorials, I conducted the examinations and graded.}
+
+\flushleft \textbf{At the Goethe-University of Frankfurt}
+
+\medskip
+\cvitem{2017-2019}{\textit{Theoretical Photochemistry} (Prof. Irene Burghardt) \newline Master in Chemistry\newline
+I gave the tutorial lectures (in active participatory or peer-review format) and some frontal lessons. I conducted the examinations and graded.
+}
+
+\cvitem{2018}{\textit{Theoretical Chemistry II} (Prof. Irene Burghardt) \newline Bachelor \& Master in Chemistry or Biophysics\newline I gave some tutorial lectures.}
+
+\medskip
+\flushleft \textbf{At the Technical University of Munich}
+
+\medskip
+\cvitem{2016}{Laboratory of \textit{Programming and Numerical Methods} (Dr. C. Scheurer) \newline  Master in Chemistry \newline
+I supervised the students in the computer practicum ($\approx 75\%$ of the course time)}
+
+\cvitem{2015}{\textit{Quantum Dynamics and Spectroscopy} (Prof. W. Domcke) \newline Master \& PhD in Chemistry or Physics \newline Tutorial lectures.}
+
+\cvitem{2014}{\textit{Chemistry for Physics} (Priv.-Doz. S. Yu. Grebenshchikov) \newline Bachelor in Physics \newline Tutorial lectures}
+
+\cvitem{2013-2015}{\textit{Quantum Mechanics} (Priv.-Doz. S. Yu. Grebenshchikov) \newline Bachelor in Chemistry \newline Tutorial lectures and training of the teaching assistants}
+
+\cvitem{2013}{\textit{Analytical Chemistry} (Dr. S. Breitenlechner and Dr. A. Bauer) \newline Bachelor in Management and Technology  (TUM-BWL) \newline Supervision during laboratory practicum and grading}
+
+
+\medskip
+\flushleft \textbf{Additional teaching activities}
+\cvitem{2023-2025}{Lecturer at two editions of the School "Quantum Dynamics and Spectroscopy of Functional Molecular Materials and Biological Photosystems", Les Houches (August 2023 {\color{blue} \href{https://www.theochem.uni-frankfurt.de/LesHouches2023/speakers_school.php}{\ExternalLink} } and February 2025 {\color{blue}  \href{https://qudynspec.sciencesconf.org/?lang=en}{\ExternalLink}})}
+
+
+\medskip
+\flushleft \textbf{Supervision of students}
+\cvitem{2025}{Co-supervisor of a doctoral student (Jan Ortlepp) in the Group of Theoretical Chemistry at the University of D\"usseldorf (Prof. S. Faraji)}
+
+\cvitem{2025}{Supervisor of a master student (Jan Ortlepp) in the Group of Theoretical Chemistry at the University of D\"usseldorf (Prof. S. Faraji)}
+
+\cvitem{2024--present}{Daily supervisor of a doctoral student (Kors Doedens) in the Group of Theoretical Chemistry at the University of D\"usseldorf (Prof. S. Faraji)}
+
+\cvitem{2022}{Daily supervisor of a doctoral student (Edison X. Salazar) in the final part of his PhD in the Group of Theoretical Chemistry at the University of Groningen (Prof. S. Faraji)}
+
+\cvitem{2020--present}{Co-supervision of a doctoral student (Maximiliane Horz) in one of her PhD sub-projects in the Group of Theoretical Chemisty at the University of Frankfurt (Prof. Irene Burghardt)}
+
+\smallskip
+\cvitem{2017}{Daily supervision of a master student (Johannes Ehrmaier) in the group of Prof. W. Domcke, at the Technical University of Munich. The work has resulted in a publication.}
+
+\smallskip
+\cvitem{2014}{Daily supervision of a bachelor student (Carlos Mejuto Zaera) in the group of Prof. W. Domcke, at the Technical University of Munich}
+
+
+
+\bigskip
+%\newpage
+\section{Research technical skills}
+\medskip
+
+\cvitem{\listitemsymbol}{Programming in \textsc{Fortran} and \textsc{Python}}
+
+\cvitem{\listitemsymbol}{Linux operating system and bash scripting}
+
+\cvitem{\listitemsymbol}{\textsc{Q-Chem}, \textsc{Gaussian}, \textsc{Orca}, \textsc{Turbomole}, \textsc{Molpro},  and \textsc{OpenMolcas} packages for quantum chemistry}
+
+\cvitem{\listitemsymbol}{Data analysis and machine learning libraries: \texttt{scikit-learn}, \texttt{pandas}, \texttt{tensorflow}, \texttt{keras}}
+
+\cvitem{\listitemsymbol}{Techniques for quantum wave packet propagation. Autonomous development of codes for quantum dynamics based on the multi-configurational time-dependent Hartree (MCTDH) method, the variational Gaussian wave packets (vMCG), and their combination (G-MCTDH).}
+
+\cvitem{\listitemsymbol}{\textsc{Mathematica} and \textsc{Origin} packages}
+
+
+%\newpage
+\medskip
+\section{Language skills}
+%\medskip
+
+\cvitem{\listitemsymbol}{Italian, native}
+
+\cvitem{\listitemsymbol}{English, fluent}
+
+\cvitem{\listitemsymbol}{German, B2 level}
+
+\cvitem{\listitemsymbol}{Spanish, fluent}
+
+
+\bigskip \bigskip
+
+\newpage
+\section{Publications}
+\cvitem{}{\textit{The asterisks (*) mark the corresponding authors. }}
+
+\medskip
+\cvitem{31}{D. Picconi*, M. S. F. Menger, E. Palacino-Gonz{\'a}lez, E. X. Salazar and S. Faraji*, \textbf{Implementation of quasiclassical mapping approaches for nonadiabatic molecular dynamics in the PySurf package}, \textit{Phys. Chem. Chem. Phys.} \textbf{27}, 19105  (2025)
+{\color{blue} \href{https://doi.org/10.1039/D5CP01194A}{\ExternalLink}}
+}
+
+\bigskip
+\cvitem{30}{
+L. E. Cigrang, B. F. E. Curchod, R. A. Ingle, A. Kelly, J. R. Mannouch, D. Accomasso, A. Alijah, M. Barbatti, W. Chebbi, N. Došlić, E. C. Eklund, S. Fernandez-Alberti, A. Freibert, L. González, G. Granucci, F. J. Hernández, J. Hernández-Rodríguez, A. Jain, J. Janoš, I. Kassal, A. Kirrander, Z. Lan, H. R. Larsson, D. Lauvergnat, B. Le Dé, Y. Lee, N. T. Maitra, S. K. Min, D. Peláez, D. Picconi, U. Raucci, Z. Qiu, P. Robertson, E. Sangiogo Gil, M. Sapunar, P. Schürger, P. Sinnott, S. Tretiak, A. Tikku, P. Vindel-Zandbergen, G. A. Worth, F. Agostini*, S. Gómez*, L. M. Ibele* and A. Prlj*, \textbf{Roadmap for molecular benchmarks in nonadiabatic dynamics}, \textit{J. Phys. Chem. A} (2025)
+{\color{blue} \href{https://doi.org/10.1021/acs.jpca.5c02171}{\ExternalLink}}
+}
+
+\bigskip
+\cvitem{29}{E. Palacino-Gonz{\'a}lez* and D. Picconi*, \textbf{Photoinduced Molecular Quantum Dynamics: Theory and computational Methods}, in \textit{Quantum dynamics and spectroscopy of functional molecular materials and biological photosystems}, I. Burghardt, J. A. Cina \& J. L{\'e}onard \& (eds.), \textit{EDP Sciences} (2025) {\color{blue} \href{https://doi.org/10.1051/978-2-7598-3760-1}{\ExternalLink}}}
+
+\bigskip
+\cvitem{28}{G. Pacella, M. Nabatova, Y. Zhang, D. Picconi, R. R. Weber, S. Faraji and G. Portale*, \textbf{Harnessing negative photochromism in styryl cyanines for light-modulated proton transport}, \textit{Angew. Chem. Int. Ed.} e202506532 (2025)
+{\color{blue} \href{https://doi.org/10.1002/anie.202506532}{\ExternalLink}}
+}
+
+
+\bigskip
+\cvitem{27}{F. Lever*, D. Picconi, D. Mayer, S. Ališauskas, F. Calegari, S. D\"usterer, R. Feifel, M. Kuhlmann, T. Mazza, J. Metje, M. Robinson, R. Squibb, A. Trabattoni, M. Ware, P. Saalfrank, T. J. A. Wolf and M. G\"uhr*, \textbf{Direct observation of $\pi\pi^*$ to $n\pi^*$ transition in 2-thiouracil via time resolved NEXAFS spectroscopy}, \textit{J. Phys. Chem. Lett.} \textbf{16}, 4038 (2025) 
+{\color{blue} \href{https://doi.org/10.1021/acs.jpclett.5c00544}{\ExternalLink}}
+}
+
+\bigskip
+\cvitem{26}{D. Picconi*, \textbf{Dynamics of high-dimensional quantum systems coupled to a harmonic bath. General theory and implementation via multiconfigurational wave packets and truncated hierarchical equations for the mean-fields}, \textit{J. Chem. Phys.} \textbf{161}, 164108 (2024) {\color{blue} \href{https://doi.org/10.1063/5.0233708}{\ExternalLink}}
+}
+
+\bigskip
+\cvitem{25}{D. Mayer*, M. Handrich, D. Picconi, F. Lever, L. Mehner, M. L. Murillo Sanchez, C. Walz, E. Titov, J. D. Bozek, P. Saalfrank and M. G\"uhr, \textbf{X-ray photoelectron and NEXAFS spectroscopy of thionated uracils in the gas phase}, \textit{J. Chem. Phys.} \textbf{161}, 134301 (2024) {\color{blue} \href{https://doi.org/10.1063/5.0226983}{\ExternalLink}}
+}
+
+\bigskip
+\cvitem{24}{S. Faraji*, D. Picconi* and E. Palacino-Gonz\'alez*, \textbf{Advanced quantum and semiclassical methods for simulating photo-induced molecular dynamics and spectroscopy}, \textit{WIREs Comput. Mol. Sci.} \textbf{14}, e1731 (2024)  {\color{blue} \href{https://doi.org/10.1002/wcms.1731}{\ExternalLink}}
+}
+
+\bigskip
+\cvitem{23}{M. Horz, H. M. A. Masood, H. Brunst, J. Cerezo, D. Picconi, H. Vormann, M. S. Niraghatam, L. J. G. W. van Wilderen, J. Bredenbeck*, F. Santoro* and I. Burghardt*, \textbf{Vibrationally resolved two-photon electronic spectra including vibrational pre-excitation: Theory and application to VIPER spectroscopy with two-photon excitation}, \textit{J. Chem. Phys.} \textbf{158}, 064201 (2023) 
+{\color{blue} \href{https://doi.org/10.1063/5.0132608}{\ExternalLink}}
+}
+
+\bigskip
+\cvitem{22}{D. Picconi*, \textbf{Quantum dynamics of the photoinduced charge separation in a symmetric donor–acceptor–donor triad: The role of vibronic couplings, symmetry and temperature}, \textit{J. Chem. Phys.} \textbf{156}, 184105 (2022) {\color{blue} \href{https://doi.org/10.1063/5.0089887}{\ExternalLink}}}
+
+\bigskip
+\cvitem{21}{D. Mayer, D. Picconi, M. S. Robinson and M. G{\"u}hr*, \textbf{Experimental and theoretical gas-phase absorption spectra of thionated uracils}, \textit{Chem. Phys.} \textbf{558}, 111500 (2022) {\color{blue} \href{https://doi.org/10.1016/j.chemphys.2022.111500}{\ExternalLink}}}
+
+\bigskip
+\cvitem{20}{D. Mayer, F. Lever, D. Picconi*, J. Metje, S. Alisauskas, F. Calegari, S. Düsterer, C. Ehlert, R. Feifel, M. Niebuhr, B. Manschwetus, M. Kuhlmann, T. Mazza, M. S. Robinson, R. J. Squibb, A. Trabattoni, M. Wallner, P. Saalfrank, T. J. A. Wolf and M. G\"{u}hr*, \textbf{Following excited-state chemical shifts in molecular ultrafast x-ray photoelectron spectroscopy}, \textit{Nat. Commun.}  \textbf{13}, 198 (2022)   {\color{blue} \href{https://doi.org/10.1038/s41467-021-27908-y}{\ExternalLink}} }
+
+\bigskip
+\cvitem{19}{D. Picconi*, \textbf{Nonadiabatic quantum dynamics of the coherent excited state intramolecular proton transfer of 10-hydroxybenzo[h]quinoline}, \textit{Photochem. Photobiol. Sci.} \textbf{20}, 1455 (2021) {\color{blue} \href{https://doi.org/10.1007/s43630-021-00112-z}{\ExternalLink}} }
+
+\bigskip
+\cvitem{18}{F. Lever, D. Mayer, D. Picconi*, J. Metje, S. Alisauskas, F. Calegari, S. Düsterer, C. Ehlert, R. Feifel, M. Niebuhr, B. Manschwetus, M. Kuhlmann, T. Mazza, M. S. Robinson, R. J. Squibb, A. Trabattoni, M. Wallner, P. Saalfrank, T. J. A. Wolf and M. G\"{u}hr*, \textbf{Ultrafast dynamics of 2-thiouracil investigated by time-resolved Auger spectroscopy}, \textit{J. Phys. B: At. Mol. Opt. Phys.} \textbf{54}, 014002 (2020) {\color{blue} \href{http://iopscience.iop.org/article/10.1088/1361-6455/abc9cb}{\ExternalLink}}}
+
+\bigskip
+\cvitem{17}{D. Picconi* and I. Burghardt, \textbf{Time-resolved spectra of $\mathrm{I_2}$ in a krypton crystal by G-MCTDH simulations: Nonadiabatic dynamics, dissipation and environment driven decoherence}, \textit{Faraday Discuss.} \textbf{221}, 30 (2020) {\color{blue} \href{https://doi.org/10.1039/C9FD00065H}{\ExternalLink}}}
+
+\bigskip
+\cvitem{16}{D. Picconi* and I. Burghardt*, \textbf{Creation and Detection of Molecular Schr\"odinger Cat States: Iodine in Cryogenic Krypton Observed via Four-Wave-Mixing Optics}, in \textit{Advances in Open Systems and Fundamental Tests of Quantum Mechanics}, B. Vacchini et al. (eds.), \textit{Springer Proceedings in Physics} {\color{blue} \href{https://doi.org/10.1007/978-3-030-31146-9_7}{\ExternalLink}}}
+
+\bigskip
+\cvitem{15}{D. Picconi* and I. Burghardt*, \textbf{Open system dynamics using Gaussian-based multiconfigurational time-dependent Hartree wavefunctions: Application to environment modulated tunneling}, \textit{J. Chem. Phys.} \textbf{150} 224106 (2019) {\color{blue} \href{https://doi.org/10.1063/1.5099983}{\ExternalLink}}}
+
+\bigskip
+\cvitem{14}{D. Picconi*, J. A. Cina and I. Burghardt, \textbf{Quantum dynamics and spectroscopy of dihalogens in solid matrices. II. Theoretical aspects and G-MCTDH simulations of time-resolved coherent Raman spectra of Schr\"{o}dinger cat states of the embedded $\mathrm{I_2 Kr_{18}}$ cluster}, \textit{J. Chem. Phys.} \textbf{150}, 064112 (2019)  {\color{blue} \href{https://doi.org/10.1063/1.5082651}{\ExternalLink}} }
+
+\bigskip
+\cvitem{13}{D. Picconi*, J. A. Cina and I. Burghardt, \textbf{Quantum dynamics and spectroscopy of dihalogens in solid matrices. I. Efficient simulation of the photodynamics of the embedded $\mathrm{I_2 Kr_{18}}$ cluster using the G-MCTDH method}, \textit{J. Chem. Phys.} \textbf{150}, 064111 (2019)  {\color{blue} \href{https://doi.org/10.1063/1.5082650}{\ExternalLink}} }
+
+\bigskip
+\cvitem{12}{S. Yu. Grebenshchikov* and D. Picconi, \textbf{Entanglement of the molecular photodissociation products at avoided crossings and conical intersections}, \textit{Chem. Phys.} \textbf{515}, 60 (2018) {\color{blue} \href{https://doi.org/10.1016/j.chemphys.2018.07.005}{\ExternalLink}}}
+
+\bigskip
+\cvitem{11}{D. Picconi* and S. Yu. Grebenshchikov*, \textbf{Photodissociation dynamics in the first absorption band of pyrrole. II. Photofragment distributions for the $^1\!A_2(\pi \sigma^*) \leftarrow \widetilde{X} ^1\!A_1 (\pi\pi)$ transition}, \textit{J. Chem. Phys.} \textbf{148}, 104104 (2018) {\color{blue} \href{https://doi.org/10.1063/1.5019738}{\ExternalLink}}}
+
+\bigskip
+\cvitem{10}{D. Picconi* and S. Yu. Grebenshchikov*, \textbf{Photodissociation dynamics in the first absorption band of pyrrole. I. Molecular Hamiltonian and the Herzberg-Teller absorption spectrum for the $^1\!A_2(\pi \sigma^*) \leftarrow \widetilde{X} ^1\!A_1 (\pi\pi)$ transition}, \textit{J. Chem. Phys.} \textbf{148}, 104103 (2018) {\color{blue} \href{https://doi.org/10.1063/1.5019735}{\ExternalLink}}}
+
+\bigskip
+\cvitem{9}{S. Yu. Grebenshchikov* and D. Picconi, \textbf{Fano resonances in the photoinduced H-atom elimination dynamics in the $\pi \sigma^*$ states of pyrrole}, \textit{Phys. Chem. Chem. Phys.} \textbf{19} 14902 (2017) {\color{blue} \href{http://dx.doi.org/10.1039/C7CP01401E}{\ExternalLink}} }
+
+\bigskip
+\cvitem{8}{J. Ehrmaier, D. Picconi, T. N. V. Karsili and W. Domcke*, \textbf{Photodissociation dynamics of the pyridinyl radical: Time-dependent quantum wave-packet calculations}, \textit{J. Chem. Phys.} \textbf{146} 124304 (2017) {\color{blue} \href{http://dx.doi.org/10.1063/1.4978283}{\ExternalLink}} }
+
+\bigskip
+\cvitem{7}{D. Picconi and S. Yu. Grebenshchikov*, \textbf{
+Partial dissociative emission cross sections and product state distributions of the resulting photofragments}, \textit{Chem. Phys.} \textbf{481}, 231 (2016)  {\color{blue} \href{http://dx.doi.org/10.1016/j.chemphys.2016.08.011}{\ExternalLink}}}
+
+\bigskip
+\cvitem{6}{D. Picconi and S. Yu. Grebenshchikov*, \textbf{
+Intermediate photofragment distributions as probes of non-adiabatic dynamics at conical intersections: application to the Hartley band of ozone}, \textit{Phys. Chem. Chem. Phys.} \textbf{17}, 28932 (2015) \ {\color{blue} \href{http://dx.doi.org/10.1039/c5cp04564a}{\ExternalLink}}}
+
+\bigskip
+\cvitem{5}{D. Picconi and S. Yu. Grebenshchikov*, \textbf{Signatures of a conical intersection in photofragment distributions and absorption spectra: Photodissociation in the Hartley band of ozone}, \textit{J. Chem. Phys.} \textbf{141}, 074311 (2014) \ {\color{blue} \href{http://dx.doi.org/10.1063/1.4892919}{\ExternalLink}}}
+
+\bigskip
+\cvitem{4}{D. Padula, D. Picconi,  A. Lami, G. Pescitelli and F. Santoro*, \textbf{Electronic Circular Dichroism in Exciton-Coupled Dimers: Vibronic Spectra from a General All-Coordinates Quantum-Dynamical Approach}, \textit{J. Phys. Chem. A} \textbf{117}, 3355 (2013) \ {\color{blue} \href{http://dx.doi.org/10.1021/jp400894v}{\ExternalLink}}}
+
+\bigskip
+\cvitem{3}{D. Picconi, F. J. A. Ferrer, R. Improta, A. Lami and F. Santoro*, \textbf{Quantum-classical effective-modes dynamics of the $\pi\pi^* \rightarrow n\pi^*$ decay in 9H-adenine. A quadratic vibronic coupling model}, \textit{Faraday Discuss.} \textbf{163}, 223 (2013) \ {\color{blue} \href{http://dx.doi.org/10.1039/C3FD20147C}{\ExternalLink}}}
+
+\bigskip
+\cvitem{2}{D. Picconi, A. Lami and F. Santoro*, \textbf{Hierarchical transformation of Hamiltonians with linear and quadratic couplings for nonadiabatic quantum dynamics: Application to the $\pi\pi^*$/$n\pi^*$ internal conversion in thymine}, \textit{J. Chem. Phys.} \textbf{136}, 244104 (2012) \  {\color{blue} \href{http://dx.doi.org/10.1063/1.4729049}{\ExternalLink}}}
+
+\bigskip
+ \cvitem{1}{D. Picconi, V. Barone, A. Lami, F. Santoro, R. Improta*, \textbf{The Interplay between $\pi\pi^*/n\pi^*$ Excited States in Gas-Phase Thymine. A Quantum Dynamical Study}, \textit{ChemPhysChem} \textbf{12}, 1957 (2011) \ {\color{blue} \href{http://dx.doi.org/10.1002/cphc.201001080}{\ExternalLink}}}
+
+\newpage
+\section{References}
+
+\medskip
+\cvitem{\listitemsymbol}{Prof. \textbf{Shirin FARAJI} \newline Full Professor of Theoretical Chemistry \newline \textit{\small Institute for Theoretical and Computational Chemistry} \newline {\small Universitätsstr. 1, 40225 D\"usseldorf, Germany} \newline phone: +49 211 81 13211 \newline e-mail: \href{mailto:shirin.faraji@hhu.de}{\color{blue}\underline{shirin.faraji@hhu.de}} \newline 
+web: \href{https://www.farajilab.hhu.de/}{\color{blue} https://www.farajilab.hhu.de/ }}
+
+\medskip
+\cvitem{\listitemsymbol}{Prof. \textbf{Irene BURGHARDT} \newline Full Professor of Theoretical Chemistry \newline \textit{\small Goethe-University Frankfurt am Main} \newline {\small Max-von-Laue Stra{\ss}e 7, D-60438 Frankfurt am Main, Germany} \newline phone: +49   69 798 29710 \newline e-mail: \href{mailto:burghardt@chemie.uni-frankfurt.de}{\color{blue}\underline{burghardt@chemie.uni-frankfurt.de}} \newline 
+web: \href{http://www.theochem.uni-frankfurt.de/}{\color{blue}http://www.theochem.uni-frankfurt.de/ }}
+
+\medskip
+\cvitem{\listitemsymbol}{Prof. \textbf{Markus G{\"U}HR} \newline Lead Scientist and Professor of Experimental Quantum Physics \newline \textit{\small Deutsches Elektronen-Synchrotron DESY} \newline {\small Notkestra{\ss}e 85, 22607 Hamburg, Germany} \newline e-mail: \href{mailto:markus.guehr@desy.de}{\color{blue}\underline{markus.guehr@desy.de}}}
+
+\medskip
+\cvitem{\listitemsymbol}{Prof. \textbf{Peter SAALFRANK} \newline Full Professor of Theoretical Chemistry \newline \textit{\small University of Potsdam} \newline {\small Karl-Liebknecht-Stra\ss e 24-25, D-14476 Potsdam, Germany} \newline phone: +49 331 977 5232 \newline e-mail: \href{mailto:peter.saalfrank@uni-potsdam.de}{\color{blue}\underline{peter.saalfrank@uni-potsdam.de}} \newline 
+web: \href{https://www.uni-potsdam.de/en/theochem/index}{\color{blue}https://www.uni-potsdam.de/en/theochem/index }}
+
+\medskip
+\cvitem{\listitemsymbol}{Dr. \textbf{Fabien GATTI} \newline Directeur de Recherche CNRS (Research Professor) \newline \textit{\small Laboratoire Interdisciplinaire Carnot de Bourgogne, Universit\'e Bourgogne Europe} \newline {\small 9 avenue Alain Savary
+BP 47870, 21078 Dijon Cedex, France}  \newline e-mail: \href{mailto:fabien.gatti@u-bourgogne.fr}{\color{blue}\underline{fabien.gatti@u-bourgogne.fr}} 
+}
+
+\medskip
+\cvitem{\listitemsymbol}{Dr. \textbf{J\'er\'emie L\'EONARD} \newline Directeur de Recherche CNRS (Research Professor) \newline \textit{\small Institute of Physics and Chemistry of Materials of Strasbourg (IPCMS)} \newline {\small 23 rue du Loess  (Bât. 69)
+67037, Strasbourg, France}  \newline e-mail: \href{mailto:jeremie.leonard@ipcms.unistra.fr}{\color{blue}\underline{jeremie.leonard@ipcms.unistra.fr}} 
+}
+
+\medskip
+\cvitem{\listitemsymbol}{Prof. \textbf{Jeffrey A. CINA} \newline Professor of Theoretical Physical Chemistry \newline \textit{\small University of Oregon} \newline {\small Eugene, Oregon 97403, USA} \newline phone: +1 541 346 4617 \newline e-mail: \href{mailto:cina@uoregon.edu}{\color{blue}\underline{cina@uoregon.edu}} \newline 
+web: \href{https://chemistry.uoregon.edu/profile/cina/}{\color{blue} https://chemistry.uoregon.edu/profile/cina/}}
+
+\medskip
+\cvitem{\listitemsymbol}{Prof. \textbf{Wolfgang DOMCKE} \newline Full Professor of Theoretical Chemistry \newline \textit{\small Technical University of Munich} \newline {\small Lichtenbergstra\ss e 4, D-85747 Garching, Germany} \newline phone: +49  89 289 13616 \newline e-mail: \href{mailto:wolfgang.domcke@ch.tum.de}{\color{blue}\underline{wolfgang.domcke@ch.tum.de}} \newline 
+web: \href{https://www.department.ch.tum.de/en/theo/startseite/}{\color{blue}https://www.department.ch.tum.de/en/theo/startseite/ }}
+
+
+\medskip
+\cvitem{\listitemsymbol}{Dr. \textbf{Fabrizio SANTORO} \newline  Senior Research Scientist at the National Council of Research \newline \textit{\small Consiglio Nazionale delle Ricerche -- Istituto di Chimica dei Composti OrganoMetallici (ICCOM-CNR)} \newline {\small Area della Ricerca di Pisa, via G. Moruzzi, 1, I-56124, Pisa, Italy} \newline phone: +39 050 315 2458 \newline e-mail: \href{mailto:fabrizio.santoro@iccom.cnr.it}{\color{blue}\underline{fabrizio.santoro@iccom.cnr.it}} \newline 
+web: \href{http://www.iccom.cnr.it/it/single-profile-iccom/?uid=174}{\color{blue}http://www.iccom.cnr.it/it/single-profile-iccom/?uid=174 }}
+
+
+
+\end{document}
+
+
+\section{References}
+\medskip
+\medskip
+\cvitem{\listitemsymbol}{Priv.-Doz. Dr. \textbf{Sergy Yu. GREBENSHCHIKOV} \newline {\small R{\"u}sterstra\ss e 24, D-60325 Frankfurt am Main, Germany}  \newline e-mail: \href{mailto:sgreben@gwdg.de}{\color{blue}\underline{sgreben@gwdg.de}}} 
+
+
+\medskip
+\cvitem{\listitemsymbol}{Prof. \textbf{Vincenzo BARONE}, FRSC \newline President of the Italian Chemical Society \newline \textit{\small Scuola Normale Superiore di Pisa} \newline {\small Piazza dei Cavalieri, 7, I-56126, Pisa, Italy} \newline phone: +39 050 509134 \newline fax: +39 050 563513 
+\newline e-mail: \href{mailto:vincenzo.barone@sns.it}{\color{blue}\underline{vincenzo.barone@sns.it}} \newline
+web: \href{http://idea.sns.it}{\color{blue}http://idea.sns.it} \newline \hspace{1cm} \href{http://highlycited.com/names/b/}{\hspace{0.7cm} \color{blue}http://highlycited.com/names/b/}}
+
+

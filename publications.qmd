@@ -1,0 +1,256 @@
+---
+title: Publications
+---
+
+*The asterisks (\*) mark the corresponding authors.*
+
+---
+
+**31.**  
+D. Picconi\*, M. S. F. Menger, E. Palacino-González, E. X. Salazar and S. Faraji\*,  
+**Implementation of quasiclassical mapping approaches for nonadiabatic molecular dynamics in the PySurf package**,  
+*Phys. Chem. Chem. Phys.* **27**, 19105 (2025).  
+[DOI](https://doi.org/10.1039/D5CP01194A)
+
+---
+
+**30.**  
+L. E. Cigrang, B. F. E. Curchod, R. A. Ingle, A. Kelly, J. R. Mannouch, D. Accomasso, A. Alijah, M. Barbatti, W. Chebbi, N. Došlić, E. C. Eklund, S. Fernandez-Alberti, A. Freibert, L. González, G. Granucci, F. J. Hernández, J. Hernández-Rodríguez, A. Jain, J. Janoš, I. Kassal, A. Kirrander, Z. Lan, H. R. Larsson, D. Lauvergnat, B. Le Dé, Y. Lee, N. T. Maitra, S. K. Min, D. Peláez, D. Picconi, U. Raucci, Z. Qiu, P. Robertson, E. Sangiogo Gil, M. Sapunar, P. Schürger, P. Sinnott, S. Tretiak, A. Tikku, P. Vindel-Zandbergen, G. A. Worth, F. Agostini\*, S. Gómez\*, L. M. Ibele\* and A. Prlj\*,  
+**Roadmap for molecular benchmarks in nonadiabatic dynamics**,  
+*J. Phys. Chem. A* (2025).  
+[DOI](https://doi.org/10.1021/acs.jpca.5c02171)
+
+---
+
+**29.**  
+E. Palacino-González\* and D. Picconi\*,  
+**Photoinduced Molecular Quantum Dynamics: Theory and Computational Methods**,  
+in *Quantum Dynamics and Spectroscopy of Functional Molecular Materials and Biological Photosystems*,  
+I. Burghardt, J. A. Cina and J. Léonard (eds.), EDP Sciences (2025).  
+[DOI](https://doi.org/10.1051/978-2-7598-3760-1)
+
+---
+
+**28.**  
+G. Pacella, M. Nabatova, Y. Zhang, D. Picconi, R. R. Weber, S. Faraji and G. Portale\*,  
+**Harnessing negative photochromism in styryl cyanines for light-modulated proton transport**,  
+*Angew. Chem. Int. Ed.* e202506532 (2025).  
+[DOI](https://doi.org/10.1002/anie.202506532)
+
+---
+
+**27.**  
+F. Lever\*, D. Picconi, D. Mayer, S. Ališauskas, F. Calegari, S. Düsterer, R. Feifel, M. Kuhlmann, T. Mazza, J. Metje, M. Robinson, R. Squibb, A. Trabattoni, M. Ware, P. Saalfrank, T. J. A. Wolf and M. Gühr\*,  
+**Direct observation of ππ\* to nπ\* transition in 2-thiouracil via time-resolved NEXAFS spectroscopy**,  
+*J. Phys. Chem. Lett.* **16**, 4038 (2025).  
+[DOI](https://doi.org/10.1021/acs.jpclett.5c00544)
+
+---
+
+**26.**  
+D. Picconi\*,  
+**Dynamics of high-dimensional quantum systems coupled to a harmonic bath. General theory and implementation via multiconfigurational wave packets and truncated hierarchical equations for the mean-fields**,  
+*J. Chem. Phys.* **161**, 164108 (2024).  
+[DOI](https://doi.org/10.1063/5.0233708)
+
+---
+
+**25.**  
+D. Mayer\*, M. Handrich, D. Picconi, F. Lever, L. Mehner, M. L. Murillo Sanchez, C. Walz, E. Titov, J. D. Bozek, P. Saalfrank and M. Gühr,  
+**X-ray photoelectron and NEXAFS spectroscopy of thionated uracils in the gas phase**,  
+*J. Chem. Phys.* **161**, 134301 (2024).  
+[DOI](https://doi.org/10.1063/5.0226983)
+
+---
+
+**24.**  
+S. Faraji\*, D. Picconi\* and E. Palacino-González\*,  
+**Advanced quantum and semiclassical methods for simulating photo-induced molecular dynamics and spectroscopy**,  
+*WIREs Comput. Mol. Sci.* **14**, e1731 (2024).  
+[DOI](https://doi.org/10.1002/wcms.1731)
+
+---
+
+**23.**  
+M. Horz, H. M. A. Masood, H. Brunst, J. Cerezo, D. Picconi, H. Vormann, M. S. Niraghatam, L. J. G. W. van Wilderen, J. Bredenbeck\*, F. Santoro\* and I. Burghardt\*,  
+**Vibrationally resolved two-photon electronic spectra including vibrational pre-excitation: Theory and application to VIPER spectroscopy with two-photon excitation**,  
+*J. Chem. Phys.* **158**, 064201 (2023).  
+[DOI](https://doi.org/10.1063/5.0132608)
+
+---
+
+**22.**  
+D. Picconi\*,  
+**Quantum dynamics of the photoinduced charge separation in a symmetric donor–acceptor–donor triad: The role of vibronic couplings, symmetry and temperature**,  
+*J. Chem. Phys.* **156**, 184105 (2022).  
+[DOI](https://doi.org/10.1063/5.0089887)
+
+---
+
+**21.**  
+D. Mayer, D. Picconi, M. S. Robinson and M. Gühr\*,  
+**Experimental and theoretical gas-phase absorption spectra of thionated uracils**,  
+*Chem. Phys.* **558**, 111500 (2022).  
+[DOI](https://doi.org/10.1016/j.chemphys.2022.111500)
+
+---
+
+**20.**  
+D. Mayer, F. Lever, D. Picconi\*, J. Metje, S. Ališauskas, F. Calegari, S. Düsterer, C. Ehlert, R. Feifel, M. Niebuhr, B. Manschwetus, M. Kuhlmann, T. Mazza, M. S. Robinson, R. J. Squibb, A. Trabattoni, M. Wallner, P. Saalfrank, T. J. A. Wolf and M. Gühr\*,  
+**Following excited-state chemical shifts in molecular ultrafast x-ray photoelectron spectroscopy**,  
+*Nat. Commun.* **13**, 198 (2022).  
+[DOI](https://doi.org/10.1038/s41467-021-27908-y)
+
+---
+
+**19.**  
+D. Picconi\*,  
+**Nonadiabatic quantum dynamics of the coherent excited state intramolecular proton transfer of 10-hydroxybenzo[h]quinoline**,  
+*Photochem. Photobiol. Sci.* **20**, 1455 (2021).  
+[DOI](https://doi.org/10.1007/s43630-021-00112-z)
+
+---
+
+**18.**  
+F. Lever, D. Mayer, D. Picconi\*, J. Metje, S. Ališauskas, F. Calegari, S. Düsterer, C. Ehlert, R. Feifel, M. Niebuhr, B. Manschwetus, M. Kuhlmann, T. Mazza, M. S. Robinson, R. J. Squibb, A. Trabattoni, M. Wallner, P. Saalfrank, T. J. A. Wolf and M. Gühr\*,  
+**Ultrafast dynamics of 2-thiouracil investigated by time-resolved Auger spectroscopy**,  
+*J. Phys. B: At. Mol. Opt. Phys.* **54**, 014002 (2020).  
+[DOI](http://iopscience.iop.org/article/10.1088/1361-6455/abc9cb)
+
+---
+
+**17.**  
+D. Picconi\* and I. Burghardt,  
+**Time-resolved spectra of I\$_2\$ in a krypton crystal by G-MCTDH simulations: Nonadiabatic dynamics, dissipation and environment driven decoherence**,  
+*Faraday Discuss.* **221**, 30 (2020).  
+[DOI](https://doi.org/10.1039/C9FD00065H)
+
+---
+
+**16.**  
+D. Picconi\* and I. Burghardt\*,  
+**Creation and Detection of Molecular Schrödinger Cat States: Iodine in Cryogenic Krypton Observed via Four-Wave-Mixing Optics**,  
+in *Advances in Open Systems and Fundamental Tests of Quantum Mechanics*,  
+B. Vacchini et al. (eds.), Springer Proceedings in Physics.  
+[DOI](https://doi.org/10.1007/978-3-030-31146-9_7)
+
+---
+
+**15.**  
+D. Picconi\* and I. Burghardt\*,  
+**Open system dynamics using Gaussian-based multiconfigurational time-dependent Hartree wavefunctions: Application to environment modulated tunneling**,  
+*J. Chem. Phys.* **150**, 224106 (2019).  
+[DOI](https://doi.org/10.1063/1.5099983)
+
+---
+
+**14.**  
+D. Picconi\*, J. A. Cina and I. Burghardt,  
+**Quantum dynamics and spectroscopy of dihalogens in solid matrices. II. Theoretical aspects and G-MCTDH simulations of time-resolved coherent Raman spectra of Schrödinger cat states of the embedded I\$_2\$Kr\$_{18}\$ cluster**,  
+*J. Chem. Phys.* **150**, 064112 (2019).  
+[DOI](https://doi.org/10.1063/1.5082651)
+
+---
+
+**13.**  
+D. Picconi\*, J. A. Cina and I. Burghardt,  
+**Quantum dynamics and spectroscopy of dihalogens in solid matrices. I. Efficient simulation of the photodynamics of the embedded I\$_2\$Kr\$_{18}\$ cluster using the G-MCTDH method**,  
+*J. Chem. Phys.* **150**, 064111 (2019).  
+[DOI](https://doi.org/10.1063/1.5082650)
+
+---
+
+**12.**  
+S. Yu. Grebenshchikov\* and D. Picconi,  
+**Entanglement of the molecular photodissociation products at avoided crossings and conical intersections**,  
+*Chem. Phys.* **515**, 60 (2018).  
+[DOI](https://doi.org/10.1016/j.chemphys.2018.07.005)
+
+---
+
+**11.**  
+D. Picconi\* and S. Yu. Grebenshchikov\*,  
+**Photodissociation dynamics in the first absorption band of pyrrole. II. Photofragment distributions for the ¹A₂(πσ\*) ← X̃ ¹A₁(ππ) transition**,  
+*J. Chem. Phys.* **148**, 104104 (2018).  
+[DOI](https://doi.org/10.1063/1.5019738)
+
+---
+
+**10.**  
+D. Picconi\* and S. Yu. Grebenshchikov\*,  
+**Photodissociation dynamics in the first absorption band of pyrrole. I. Molecular Hamiltonian and the Herzberg–Teller absorption spectrum for the ¹A₂(πσ\*) ← X̃ ¹A₁(ππ) transition**,  
+*J. Chem. Phys.* **148**, 104103 (2018).  
+[DOI](https://doi.org/10.1063/1.5019735)
+
+---
+
+**9.**  
+S. Yu. Grebenshchikov\* and D. Picconi,  
+**Fano resonances in the photoinduced H-atom elimination dynamics in the πσ\* states of pyrrole**,  
+*Phys. Chem. Chem. Phys.* **19**, 14902 (2017).  
+[DOI](http://dx.doi.org/10.1039/C7CP01401E)
+
+---
+
+**8.**  
+J. Ehrmaier, D. Picconi, T. N. V. Karsili and W. Domcke\*,  
+**Photodissociation dynamics of the pyridinyl radical: Time-dependent quantum wave-packet calculations**,  
+*J. Chem. Phys.* **146**, 124304 (2017).  
+[DOI](http://dx.doi.org/10.1063/1.4978283)
+
+---
+
+**7.**  
+D. Picconi and S. Yu. Grebenshchikov\*,  
+**Partial dissociative emission cross sections and product state distributions of the resulting photofragments**,  
+*Chem. Phys.* **481**, 231 (2016).  
+[DOI](http://dx.doi.org/10.1016/j.chemphys.2016.08.011)
+
+---
+
+**6.**  
+D. Picconi and S. Yu. Grebenshchikov\*,  
+**Intermediate photofragment distributions as probes of non-adiabatic dynamics at conical intersections: Application to the Hartley band of ozone**,  
+*Phys. Chem. Chem. Phys.* **17**, 28932 (2015).  
+[DOI](http://dx.doi.org/10.1039/c5cp04564a)
+
+---
+
+**5.**  
+D. Picconi and S. Yu. Grebenshchikov\*,  
+**Signatures of a conical intersection in photofragment distributions and absorption spectra: Photodissociation in the Hartley band of ozone**,  
+*J. Chem. Phys.* **141**, 074311 (2014).  
+[DOI](http://dx.doi.org/10.1063/1.4892919)
+
+---
+
+**4.**  
+D. Padula, D. Picconi, A. Lami, G. Pescitelli and F. Santoro\*,  
+**Electronic Circular Dichroism in Exciton-Coupled Dimers: Vibronic Spectra from a General All-Coordinates Quantum-Dynamical Approach**,  
+*J. Phys. Chem. A* **117**, 3355 (2013).  
+[DOI](http://dx.doi.org/10.1021/jp400894v)
+
+---
+
+**3.**  
+D. Picconi, F. J. A. Ferrer, R. Improta, A. Lami and F. Santoro\*,  
+**Quantum-classical effective-modes dynamics of the ππ\* → nπ\* decay in 9H-adenine. A quadratic vibronic coupling model**,  
+*Faraday Discuss.* **163**, 223 (2013).  
+[DOI](http://dx.doi.org/10.1039/C3FD20147C)
+
+---
+
+**2.**  
+D. Picconi, A. Lami and F. Santoro\*,  
+**Hierarchical transformation of Hamiltonians with linear and quadratic couplings for nonadiabatic quantum dynamics: Application to the ππ\*/nπ\* internal conversion in thymine**,  
+*J. Chem. Phys.* **136**, 244104 (2012).  
+[DOI](http://dx.doi.org/10.1063/1.4729049)
+
+---
+
+**1.**  
+D. Picconi, V. Barone, A. Lami, F. Santoro and R. Improta\*,  
+**The interplay between ππ\*/nπ\* excited states in gas-phase thymine. A quantum dynamical study**,  
+*ChemPhysChem* **12**, 1957 (2011).  
+[DOI](http://dx.doi.org/10.1002/cphc.201001080)
+

@@ -1,0 +1,70 @@
+---
+title: Curriculum Vitae
+---
+
+[Download CV (PDF)](files/CV/CV_Picconi.pdf)
+
+---
+
+## Education
+
+**PhD in Theoretical Chemistry**  
+*Technical University of Munich, Germany*  
+**28/06/2017**
+
+Thesis: *Photodissociation dynamics and spectroscopy in the presence of conical intersections*  
+Grade: *Summa cum laude*  
+Supervisor: Prof. Wolfgang Domcke
+
+---
+
+**MSc in Chemistry**  
+*University of Pisa, Italy*  
+**16/07/2012**
+
+Thesis: *Development of models for quantum dynamical simulations of photo-excited molecules. Application to the nπ*/ππ* internal conversion in thymine*  
+Grade: *Cum laude*  
+Supervisor: Dr. Fabrizio Santoro
+
+---
+
+## Current Position
+
+**Independent Researcher**  
+*Institute of Theoretical and Computational Chemistry*  
+*(Chair: Prof. Shirin Faraji)*  
+Heinrich-Heine University Düsseldorf, Germany  
+
+**Since 01/06/2024**
+
+---
+
+## Previous Positions
+
+**Postdoctoral Researcher**  
+*Department of Theoretical Chemistry, Zernike Institute for Advanced Materials*  
+University of Groningen, The Netherlands  
+**01/04/2022 – 31/05/2024**
+
+Research topic:  
+Benchmark of trajectory-based methods for excited-state molecular dynamics against exact quantum mechanics
+
+---
+
+**Postdoctoral Researcher**  
+*Institute of Theoretical Chemistry*  
+University of Potsdam, Germany  
+**01/10/2019 – 31/03/2022**
+
+Research topic:  
+Protocols to simulate photoinduced charge and proton transfer; time-resolved X-ray spectroscopy
+
+---
+
+**Postdoctoral Researcher**  
+*Institute of Theoretical Chemistry of Complex Systems*  
+Goethe University Frankfurt am Main, Germany  
+**11/09/2017 – 10/09/2019**
+
+Research topic:  
+Quantum mechanical methods for photoinduced molecular dynamics; simulation of time-resolved spectroscopy

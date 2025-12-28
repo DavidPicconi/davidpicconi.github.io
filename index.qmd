@@ -1,0 +1,32 @@
+## David Picconi
+
+**Theoretical Chemistry Researcher**  
+Institute of Theoretical and Computational Chemistry  
+Heinrich-Heine University, Düsseldorf, Germany
+
+Email: david.picconi@hhu.de  
+[Google Scholar](https://scholar.google.com/citations?user=4bK_hcUAAAAJ&hl=en) ·
+[ORCID](https://orcid.org/0000-0001-6468-1595)
+  
+---
+
+I am a researcher in theoretical chemistry working on the development of methods to simulate photoinduced processes in chemical systems:
+molecular photophysics, radiationless transitions, charge and excitation energy transfer, photoinduced proton transfer, photoisomerisation, photodissociation.
+
+In my research I combing first principles electronic structure theory to construct multi-state multi-mode molecular Hamiltonian models with advanced quantum wave packet simulation to describe the light-trigger molecular motion in a fully quantum mechanical way.
+
+## Current research interests
+- Protocols to construct molecular vibronic Hamiltonian models for nonadiabatic dynamics
+- Methods for quantum dynamics of complex systems, such as high-dimensional quantum systems embedded in a fluctuating environment
+- Simulation of time-resolved spectroscopy from multiple domains (infrared, UV-visible, X-ray)
+- Benchmarking *approximate* quantum-classical and semiclassical methods against *exact* quantum mechanical results
+
+<!--
+---
+
+## Recent activity
+
+- **2025** — Short item (paper submitted, project started, talk given)
+- **2024** — Short item
+
+-->

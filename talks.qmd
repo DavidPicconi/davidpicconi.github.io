@@ -1,0 +1,148 @@
+---
+title: Talks at International Conferences
+---
+
+### Invited Talks
+
+**High-Dimensional Quantum Dynamics with Dissipation and Decoherence: Challenges and Applications**  
+*High Dimensional Quantum Dynamics: Challenges and Applications (HDQD 2024)*,  
+Hamburg, Germany, July 2024.  
+[Conference website](https://www.conferences.uni-hamburg.de/event/393/)
+
+---
+
+**Photophysics, photochemistry and spectroscopy using high-dimensional quantum wave packets**  
+*Quantum Dynamics and Spectroscopy of Functional Molecular Materials and Biological Photosystems*,  
+Les Houches, France, September 2023.  
+[Conference website](https://www.theochem.uni-frankfurt.de/LesHouches2023/index.php)
+
+---
+
+**Molecular photodynamics and its manifestation in UV–Vis and X-ray time-resolved spectra: Insights from quantum chemistry and quantum dynamics**  
+*Light Induced Processes in Physical, Chemical, and Biological Systems*,  
+Zagreb, Croatia, June 2021.  
+[Conference website](https://www2.irb.hr/korisnici/nadja/LIP2021/)
+
+---
+
+**Molecular photodynamics and its manifestation in UV–Vis and X-ray time-resolved spectra: Insights from quantum chemistry and quantum dynamics**  
+*Quantum Dynamics and Spectroscopy of Functional Molecular Materials and Biological Photosystems*,  
+Les Houches, France, May 2021.  
+[Conference website](https://www.theochem.uni-frankfurt.de/LesHouches2021/index.php)
+
+---
+
+**Quantum dynamics and spectroscopy using G-MCTDH wavefunctions. Nonadiabatic photophysics and vibrational coherences of $\mathrm{I_2}$ in solid $\mathrm{Kr}$**  
+*Quantum Dynamics and Spectroscopy in Condensed-Phase Materials and Bio-Systems*,  
+Telluride, United States, June 2019.  
+[Conference website](https://www.telluridescience.org/meetings/workshop-details?wid=752)
+
+---
+
+**Insights into the absorption spectrum and the product state distributions of photodissociating molecules**  
+*Non-Equilibrium Statistical Physics: From Molecular Materials to Theoretical Engineering*,  
+Telluride, United States, July 2016.  
+[Conference website](https://www.telluridescience.org/meetings/workshop-details?wid=608)
+---
+
+### Contributed Talks
+
+**Novel approaches to simulate the dynamics of multi-mode nonadiabatic quantum systems coupled to a fluctuating environment**  
+16th Femtochemistry Conference (FEMTO 16), Trieste, Italy, June 2025.  
+[Conference website](https://indico.elettra.eu/event/44/overview)
+
+---
+
+**Novel approaches to simulate the dynamics of multi-mode nonadiabatic quantum systems coupled to a fluctuating environment**  
+*Quantum Dynamics and Spectroscopy of Functional Molecular Materials and Biological Photosystems*,  
+Les Houches, France, March 2025.  
+[Conference website](https://qudynspec.sciencesconf.org/?lang=en)
+
+---
+
+**Photophysics, photochemistry and spectroscopy using high-dimensional quantum wave packets**  
+*NWO Physics*, Veldhoven, the Netherlands, January 2024.
+
+---
+
+**Photophysics, photochemistry and spectroscopy using high-dimensional quantum wave packets and *ab initio* potential energy surfaces**  
+International Conference on Photochemistry (ICP 2023), Sapporo, Japan, July 2023.  
+[Conference website](https://icp2023.jp/)
+
+---
+
+**Ultrafast molecular photodynamics and their spectroscopic detection**  
+28th IUPAC Symposium on Photochemistry (PhotoIUPAC), Amsterdam, the Netherlands, July 2022.  
+[Conference website](https://photoiupac2022.amsterdam/)
+
+---
+
+**Ultrafast molecular photodynamics and their spectroscopic detection**  
+High-Dimensional Quantum Dynamics: Challenges and Applications (HDQD 2022),  
+Groningen, the Netherlands, July 2022.  
+[Conference website](https://www.hdqd2022.org/)
+
+---
+
+**Molecular photodynamics and its manifestation in UV–Vis and X-ray time-resolved spectra: Insights from quantum chemistry and quantum dynamics**  
+57th Symposium on Theoretical Chemistry, Würzburg, Germany, September 2021.  
+[Conference website](https://stc2021.uni-wuerzburg.de/)
+
+---
+
+**Molecular photodynamics and its manifestation in UV–Vis and X-ray time-resolved spectra: Insights from quantum chemistry and quantum dynamics**  
+International Conference on Photochemistry, Geneva, Switzerland, July 2021.  
+[Conference website](https://www.icp2021.ch/)
+
+---
+
+**Time-resolved spectra of $\mathrm{I_2}$ in a krypton crystal by G-MCTDH simulations: Nonadiabatic dynamics, dissipation and environment-driven decoherence**  
+*Beating the complexity of matter through the selectivity of X-rays. Dynamic pathways in multidimensional landscapes*,  
+Berlin, Germany, September 2019.  
+[Conference website](https://www.helmholtz-berlin.de/events/complexity-of-matter/index_en.html)
+
+---
+
+**Time-resolved spectra of $\mathrm{I_2}$ in a krypton crystal by G-MCTDH simulations: Nonadiabatic dynamics, dissipation and environment-driven decoherence**  
+*Quantum Effects in Complex Systems*, Faraday Discussion,  
+Coventry, United Kingdom, September 2019.  
+[Conference website](http://www.rsc.org/events/detail/30710/quantum-effects-in-complex-systems-faraday-discussion)
+
+---
+
+**Photodynamics and spectroscopy of halogens embedded in rare gas crystals. Quantum dynamics of $\mathrm{I_2}$ in solid $\mathrm{Kr}$**  
+54th Symposium on Theoretical Chemistry, Halle (Saale), Germany, September 2018.  
+[Conference website](https://stc2018.de/)
+
+---
+
+**Photodissociation reactions through conical intersections: Insights into the absorption spectrum and the product state distributions**  
+*High-Dimensional Quantum Dynamics: Challenges and Opportunities*,  
+Rostock, Germany, September 2016.  
+[Conference website](http://web.physik.uni-rostock.de/quantendynamik/hdqd_home.html)
+
+---
+
+**Tracking reactive conical intersections in photodissociation via internal state distributions of (interacting) fragments**  
+13th International Workshop on Quantum Reactive Scattering,  
+Salamanca, Spain, July 2015.  
+[Conference website](http://fama.iff.csic.es/con/QRS-2015/)
+
+---
+
+**Tracking reactive conical intersections in photodissociation via internal state distributions of (interacting) fragments**  
+5th Summit Meeting *Excitation Energy Transfer Processes in Physical, Chemical and Biological Systems*,  
+Munich, Germany, July 2015.
+
+---
+
+**A strategy for nonadiabatic quantum-classical dynamics of semirigid molecules. Investigating the photostability of nucleobases**  
+Workshop of the Section of Theoretical and Computational Chemistry of the Italian Chemical Society,  
+Padova, Italy, February 2013.
+
+---
+
+**Models for quantum dynamical simulations of photoexcited molecules. Investigating the photostability of nucleobases**  
+International Meeting on Atomic and Molecular Physics and Chemistry,  
+Pisa, Italy, September 2012.  
+[Conference website](http://imampc2012.sns.it/program)

@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Research directions – David Picconi</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">David Picconi</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./research.html" aria-current="page"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./talks.html"> 
+<span class="menu-text">Talks</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#computational-methods-for-high-dimensional-molecular-quantum-systems" id="toc-computational-methods-for-high-dimensional-molecular-quantum-systems" class="nav-link active" data-scroll-target="#computational-methods-for-high-dimensional-molecular-quantum-systems">Computational methods for high-dimensional molecular quantum systems</a></li>
+  <li><a href="#quantum-mechanical-description-of-ultrafast-photoreactions" id="toc-quantum-mechanical-description-of-ultrafast-photoreactions" class="nav-link" data-scroll-target="#quantum-mechanical-description-of-ultrafast-photoreactions">Quantum mechanical description of ultrafast photoreactions</a></li>
+  <li><a href="#photophysics-of-non-canonical-nucleobases-studied-via-time-resolved-x-ray-spectroscopy" id="toc-photophysics-of-non-canonical-nucleobases-studied-via-time-resolved-x-ray-spectroscopy" class="nav-link" data-scroll-target="#photophysics-of-non-canonical-nucleobases-studied-via-time-resolved-x-ray-spectroscopy">Photophysics of non-canonical nucleobases studied via time-resolved X-ray spectroscopy</a></li>
+  <li><a href="#symmetry-breaking-charge-transfer" id="toc-symmetry-breaking-charge-transfer" class="nav-link" data-scroll-target="#symmetry-breaking-charge-transfer">Symmetry-breaking charge transfer</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Research directions</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="computational-methods-for-high-dimensional-molecular-quantum-systems" class="level3">
+<h3 class="anchored" data-anchor-id="computational-methods-for-high-dimensional-molecular-quantum-systems">Computational methods for high-dimensional molecular quantum systems</h3>
+<p>Molecular system subject to a perturbation, such as the interaction with a laser field, undergo chemical dynamics processes that, in the time scales of chemical bond motion, can display strong quantum effect. Therefore, processes like photodissociation, photoisomerisation, photoinduced charge and proton transfer, or the vibrational energy redistribution after interaction with an infrared laser, need to be modelled quantum mechanically. This is particularly challenging when many molecular degrees of freedom or electronic states need to be taken into account.</p>
+<p>To simulate ultrafast high-dimensional quantum molecular dynamics we develop efficient <strong>quantum wave packet methods</strong>, that rely on multi-configurational electronic-vibrational wavefunctions. Computational efficiency is obtained by partitioning the molecular system into three parts: (1) a <strong>primary</strong> subsystem that includes the electronic states and the most relevant coordinates for the description of the investigate process - i.e.&nbsp;reaction coordinates, nonadiabatic coupling modes, etc.; (2) a <strong>secondary</strong> subsystem that accounts for the intramolecular vibrations most strongly coupled to the primary ones - that play a major role in intramolecular vibrational redistribution; (3) a <strong>bath</strong> that includes the remaining intramolecular vibrations as well as dissipative solvent modes.</p>
+<p>In dynamical simulations, the bath is described by a collections of high-dimensional wave packets, constructed as multi-configurational wavefunctions where <strong>fully flexible</strong> functions are used for the primary modes and <strong>Gaussian wave packets</strong> are used for the secondary ones. This type of approach gives rise to Gaussian/Multi-Configurational Time-Dependent Hartree wavefunctions, which we implemented and successfully used in a number of applications, including the simulation of <strong>time-resolved spectroscopy</strong> [1,2].</p>
+<p>Various methods for the treatment of the bath are currently under development. They include implicity Markovian descriptions (Lindblad or Caldeira-Leggett) [3], semi-implicit hierarchical equations for the “mean-field” influence of the bath [4], variational approaches and mixed quantum-classical schemes.</p>
+<div id="fig_hbq" class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="files/images/Hierarchy.svg" class="img-fluid figure-img" style="width:35.0%"></p>
+<figcaption>Hierarchical partitioning of the degrees of freedom of a molecular system into primary modes, secondary modes, and dissipative modes</figcaption>
+</figure>
+</div>
+</div>
+<p><strong>References</strong></p>
+<p>[1] D. Picconi and I. Burghardt, <strong>Time-resolved spectra of I2 in a krypton crystal by G-MCTDH simulations: Nonadiabatic dynamics, dissipation and environment driven decoherence</strong>, <em>Faraday Discuss.</em> <strong>221</strong>, 30 (2020). <a href="https://doi.org/10.1039/C9FD00065H">DOI</a></p>
+<p>[2] D. Picconi, J. A. Cina and I. Burghardt, <strong>Quantum dynamics and spectroscopy of dihalogens in solid matrices. II. Theoretical aspects and G-MCTDH simulations of time-resolved coherent Raman spectra of Schrödinger cat states of the embedded I2Kr{18} cluster</strong>, <em>J. Chem. Phys.</em> <strong>150</strong>, 064112 (2019). <a href="https://doi.org/10.1063/1.5082651">DOI</a></p>
+<p>[3] D. Picconi and I. Burghardt, <strong>Open system dynamics using Gaussian-based multiconfigurational time-dependent Hartree wavefunctions: Application to environment modulated tunneling</strong>, <em>J. Chem. Phys.</em> <strong>150</strong>, 224106 (2019). <a href="https://doi.org/10.1063/1.5099983">DOI</a></p>
+<p>[4] D. Picconi, <strong>Dynamics of high-dimensional quantum systems coupled to a harmonic bath. General theory and implementation via multiconfigurational wave packets and truncated hierarchical equations for the mean-fields</strong>, <em>J. Chem. Phys.</em> <strong>161</strong>, 164108 (2024). <a href="https://doi.org/10.1063/5.0233708">DOI</a></p>
+<hr>
+</section>
+<section id="quantum-mechanical-description-of-ultrafast-photoreactions" class="level3">
+<h3 class="anchored" data-anchor-id="quantum-mechanical-description-of-ultrafast-photoreactions">Quantum mechanical description of ultrafast photoreactions</h3>
+<p>Photoinduced chemical reactions - such as photodissociation, excited state proton transfer, or photoisomerisation - that occur on ultrafast time scale (<span class="math inline">\(&lt; 10^{-12}\)</span> s) can be influenced by <strong>quantum effects</strong>. For example, these effects involve a strong coupling between nuclear vibrational motion and electronic transitions (nonadiabatic photochemistry) or interference between different reaction pathways.</p>
+<p>To model these phenomena we develop first principles protocols involving, in a first step, the <strong>construction of high-dimensional multi-state potential energy surfaces</strong> using electronic structure calculations. The surfaces include the reaction coordinates, treated as anharmonic modes, and the remaining molecular vibrations, model using general harmonic models that include mode-mode correlations (Duschinsky mixing).</p>
+<p>In a second step, these surfaces are used to simulate photoinduced dynamics via high-dimensional <strong>quantum dynamics</strong>. These simulations fully account for quantum effects and are performed using methods of the family of the Multi-Configurational Time-Dependent Hartree <strong>(MCTDH)</strong> approach, using hybrid formalism where Gaussian wave packets are used to treat the less relevant modes in a computationally efficient way.</p>
+<div id="fig_hbq" class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="files/images/hbq.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Full quantum mechanical simulation of the excited state intramolecular proton transfer of 10-hydroxybenzoquinoline, via wave packet dynamics on potential energy surfaces computed from time-dependent density functional theory (TD-DFT) data.</figcaption>
+</figure>
+</div>
+</div>
+<p><strong>References</strong></p>
+<p>[1] D. Picconi and S. Yu. Grebenshchikov, <strong>Intermediate photofragment distributions as probes of non-adiabatic dynamics at conical intersections: Application to the Hartley band of ozone</strong>, <em>Phys. Chem. Chem. Phys.</em> <strong>17</strong>, 28932 (2015). <a href="http://dx.doi.org/10.1039/c5cp04564a">DOI</a></p>
+<p>[2] D. Picconi and S. Yu. Grebenshchikov, <strong>Photodissociation dynamics in the first absorption band of pyrrole. II. Photofragment distributions for the ¹A₂(πσ*) ← X̃ ¹A₁(ππ) transition</strong>, <em>J. Chem. Phys.</em> <strong>148</strong>, 104104 (2018). <a href="https://doi.org/10.1063/1.5019738">DOI</a></p>
+<p>[3] D. Picconi, <strong>Nonadiabatic quantum dynamics of the coherent excited state intramolecular proton transfer of 10-hydroxybenzo[h]quinoline</strong>, <em>Photochem. Photobiol. Sci.</em> <strong>20</strong>, 1455 (2021). <a href="https://doi.org/10.1007/s43630-021-00112-z">DOI</a></p>
+<hr>
+</section>
+<section id="photophysics-of-non-canonical-nucleobases-studied-via-time-resolved-x-ray-spectroscopy" class="level3">
+<h3 class="anchored" data-anchor-id="photophysics-of-non-canonical-nucleobases-studied-via-time-resolved-x-ray-spectroscopy">Photophysics of non-canonical nucleobases studied via time-resolved X-ray spectroscopy</h3>
+<p>Since 2019 a collaboration is active with the group of Prof.&nbsp;Markus Gühr (Deutsches Elektronen-Synchrotron DESY) on the investigation of the photoinduced dynamics of <strong>thionated nucleobases</strong>. Thionucleobases are obtained from their canonical counterparts by the replacement of one or more oxygen atoms with sulphur. When compared to canonical nucleobases, photoexcitation leads to long-lived excited <strong>triplet states</strong>, leading to cross-linking reactions and the creation of reactive singlet oxygen. This is important in the context of the medical use of these molecules as immunosuppressants. In addition, their absorption spectrum is shifted from the UVC region into the UVA - which is more abundant in the sun’s spectrum - further compounding the effects of their reactive excited state.</p>
+<p>In particular, we investigated UV-induced triplet-state formation in the gas phase using newly developed <strong>femtosecond X-ray spectroscopic techniques</strong>, such as transient NEXAFS, XPS, Auger [1-4]. We provided the theoretical analysis, predicting X-ray spectra from molecular geometries and electronic states, which guided the assignment of experimentally measured X-ray bands. The simulations were crucial for identifying non-radiative transitions and for formulating principles to interpret new X-ray observables, thereby assisting the design of next-generation experiments at free-electron-laser facilities.</p>
+<p>In one of our studies [2], we analysed the time-resolved photoelectron spectrum of the S-atom core <em>p</em> orbitals in 2-thiouracil – the first ultrafast measurement of this kind on an organic molecule. Thanks to our electronic structure calculations, we developed a model linking the time-dependent excited-state chemical shift (the change in ionisation potential induced by UV pre-excitation) to variations in the partial charge on the probed atom, a key quantity governing chemical reactivity. This is illustrated in the figure below, showing the UV-induced shift of the photoelectron signal and the computed linear relation between the partial charge on S and the excited-state chemical shift.</p>
+<div id="fig_x-ray" class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="files/images/x-ray_spectroscopy.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>(Left) Scheme of our UV pump–X-ray probe photoelectron spectroscopy experiment on 2-thiouracil. The photoelectron spectrum of the electronic ground state of the molecule is shown in blue; the spectrum 200 fs after UV pre-excitation is shown in red and is shifted towards lower kinetic energies (excited state chemical shift), i.e.&nbsp;the ionization potential increases. (Right) Calculated partial charge at the S atom for different geometries and electronic states of 2-thiouracil, plotted against the the excited state chemical shift. A linear correlation, explained by a “potential model”, is found. In agreement with the experiment, the calculations predict a higher ionization potential for the excited electronic states <span class="math inline">\(S_1\)</span>, <span class="math inline">\(S_2\)</span>, <span class="math inline">\(T_1\)</span>, and <span class="math inline">\(T_2\)</span>, as compared to the ground state.</figcaption>
+</figure>
+</div>
+</div>
+<p><strong>References</strong></p>
+<p>[1] F. Lever, D. Mayer, D. Picconi, J. Metje, S. Ališauskas, F. Calegari, S. Düsterer, C. Ehlert, R. Feifel, M. Niebuhr, B. Manschwetus, M. Kuhlmann, T. Mazza, M. S. Robinson, R. J. Squibb, A. Trabattoni, M. Wallner, P. Saalfrank, T. J. A. Wolf and M. Gühr, <strong>Ultrafast dynamics of 2-thiouracil investigated by time-resolved Auger spectroscopy</strong>, <em>J. Phys. B: At. Mol. Opt. Phys.</em> <strong>54</strong>, 014002 (2020). <a href="http://iopscience.iop.org/article/10.1088/1361-6455/abc9cb">DOI</a></p>
+<p>[2] D. Mayer, F. Lever, D. Picconi, J. Metje, S. Ališauskas, F. Calegari, S. Düsterer, C. Ehlert, R. Feifel, M. Niebuhr, B. Manschwetus, M. Kuhlmann, T. Mazza, M. S. Robinson, R. J. Squibb, A. Trabattoni, M. Wallner, P. Saalfrank, T. J. A. Wolf and M. Gühr, <strong>Following excited-state chemical shifts in molecular ultrafast x-ray photoelectron spectroscopy</strong>, <em>Nat. Commun.</em> <strong>13</strong>, 198 (2022). <a href="https://doi.org/10.1038/s41467-021-27908-y">DOI</a></p>
+<p>[3] D. Mayer, M. Handrich, D. Picconi, F. Lever, L. Mehner, M. L. Murillo Sanchez, C. Walz, E. Titov, J. D. Bozek, P. Saalfrank and M. Gühr, <strong>X-ray photoelectron and NEXAFS spectroscopy of thionated uracils in the gas phase</strong>, <em>J. Chem. Phys.</em> <strong>161</strong>, 134301 (2024). <a href="https://doi.org/10.1063/5.0226983">DOI</a></p>
+<p>[4] F. Lever, D. Picconi, D. Mayer, S. Ališauskas, F. Calegari, S. Düsterer, R. Feifel, M. Kuhlmann, T. Mazza, J. Metje, M. Robinson, R. Squibb, A. Trabattoni, M. Ware, P. Saalfrank, T. J. A. Wolf and M. Gühr, <strong>Direct observation of ππ* to nπ* transition in 2-thiouracil via time-resolved NEXAFS spectroscopy</strong>, <em>J. Phys. Chem. Lett.</em> <strong>16</strong>, 4038 (2025). <a href="https://doi.org/10.1021/acs.jpclett.5c00544">DOI</a></p>
+<hr>
+</section>
+<section id="symmetry-breaking-charge-transfer" class="level3">
+<h3 class="anchored" data-anchor-id="symmetry-breaking-charge-transfer">Symmetry-breaking charge transfer</h3>
+<p>Photoinduced symmetry-breaking charge transfer is a process where light absorption induces the formation of a dipolar state in a molecule that, in its ground state, has no permanent dipole due to its high symmetry. This phenomenon can occur because of a charge transfer or charge separation process between two covalently bound chromohphores or across a molecular aggregate.</p>
+<p>Recently a protocol has been proposed to study the symmetry-breaking phenomenon in molecular systems from first-principles. This was achieved by constructing a diabatic quadratic vibronic coupling model based on TDDFT calculation, that includes both locally excited and charge-transfer states, and performing quantum dynamical simulations.</p>
+<p>The results on a donor-acceptor-donor triad highlight the crucial role of intramolecular vibrations in promoting the symmetry breaking, on time scales faster than solvation dynamics [1]. This has been subsequently observed on a different quadrupolar system using two-dimensional spectroscopy [2]. Furthermore, the simulations point out a crucial role of temperature in increasing the rate of charge separation.</p>
+<p>Current developments in methods for quantum dynamics will allow modelling the symmetry-breaking charge transfer process across multiple time scales: from the coherent short time dynamics, passing through an intermediate time where intramolecular vibrational redistribution starts to take place, and including the long time where dissipation to the solvent finally stabilises the dipolar state.</p>
+<div id="fig_DAD" class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="files/images/DAD.svg" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>(Left) Diabatic otential energy surfaces for the ground and the three lowest excited states of a donor-acceptor-donor system that undergoes symmetry-breaking charge transfer. (Right) simulation of the population decay from the “bright” locally excited state; the charge-transfer rate increases with temperature because it is mediated by molecular vibrations with relatively low frequency.</figcaption>
+</figure>
+</div>
+</div>
+<p><strong>References</strong></p>
+<p>[1] D. Picconi, <strong>Quantum dynamics of the photoinduced charge separation in a symmetric donor–acceptor–donor triad: The role of vibronic couplings, symmetry and temperature</strong>, <em>J. Chem. Phys.</em> <strong>156</strong>, 184105 (2022). <a href="https://doi.org/10.1063/5.0089887">DOI</a></p>
+<p>[2] K. Winte, S. Souri, D. C. Lünemann, F. Zheng, M. E.-A. Madjet, T. Frauenheim, T. Kraus, E. Mena-Osteritz, P. Bäuerle, S. Tretiak, A. De Sio and C. Lienau, <strong>Vibronic coupling-driven symmetry breaking and solvation in the photoexcited dynamics of quadrupolar dyes</strong>, <em>Nat. Chem.</em> <strong>17</strong>, 1742 (2025)</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
